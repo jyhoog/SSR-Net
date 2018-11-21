@@ -80,8 +80,8 @@ This repository is for IMDB, WIKI, and Morph2 datasets.
 + Run the following codes for dataset pre-processing.
 ```
 cd ./data
-python TYY_IMDBWIKI_create_db.py --db imdb --output imdb.npz
-python TYY_IMDBWIKI_create_db.py --db wiki --output wiki.npz
+python TYY_IMDBWIKI_create_db.py --db imdb --output imdb_db.npz
+python TYY_IMDBWIKI_create_db.py --db wiki --output wiki_db.npz
 python TYY_MORPH_create_db.py --output morph_db_align.npz
 ```
 
